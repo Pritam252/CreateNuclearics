@@ -1,9 +1,9 @@
-package mod.yourname.yourmodid;
+package com.github.pritam252.createnuclearics;
 
+import com.github.pritam252.createnuclearics.register.*;
+import com.github.pritam252.createnuclearics.register.config.ModConfigs;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.repack.registrate.util.nullness.NonNullSupplier;
-import mod.yourname.yourmodid.register.*;
-import mod.yourname.yourmodid.register.config.ModConfigs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.data.loading.DatagenModLoader;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,18 +17,18 @@ import org.apache.logging.log4j.Logger;
 
 // TODO: rename this class! and package name! package name should be mod.yourname.modid, see import of BuildConfig class
 @Mod(BuildConfig.MODID)
-public class CreateAddon {
+public class CreateNuclearics {
 	// Directly reference a log4j logger.
 	private static final Logger LOGGER = LogManager.getLogger(BuildConfig.MODID);
 	public static IEventBus modEventBus;
 
 	public static final NonNullSupplier<CreateRegistrate> registrate = CreateRegistrate.lazy(BuildConfig.MODID);
 
-	public CreateAddon() {
+	public CreateNuclearics() {
 		modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		CreateRegistrate r = registrate.get();
-		ModItems.register(r);
 		ModBlocks.register(r);
+		ModItems.register(r);
 		ModEntities.register(r);
 		ModTiles.register(r);
 		if (DatagenModLoader.isRunningDataGen()) {

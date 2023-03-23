@@ -1,8 +1,8 @@
-package mod.yourname.yourmodid.register;
+package com.github.pritam252.createnuclearics.register;
 
 import com.jozufozu.flywheel.core.PartialModel;
 import com.simibubi.create.Create;
-import mod.yourname.yourmodid.BuildConfig;
+import com.github.pritam252.createnuclearics.BuildConfig;
 import net.minecraft.resources.ResourceLocation;
 
 public class ModPartials {

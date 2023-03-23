@@ -1,8 +1,8 @@
 {
   "required": true,
-  "package": "mod.yourname.yourmodid.mixin",
+  "package": "com.github.pritam252.createnuclearics.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "yourmodid.refmap.json",
+  "refmap": "createnuclearics.refmap.json",
   "mixins": [
   ],
   "injectors": {

@@ -1,7 +1,7 @@
-package mod.yourname.yourmodid.register.config;
+package com.github.pritam252.createnuclearics.register.config;
 
 import com.simibubi.create.foundation.config.ConfigBase;
-import mod.yourname.yourmodid.BuildConfig;
+import com.github.pritam252.createnuclearics.BuildConfig;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModLoadingContext;

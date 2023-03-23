@@ -1,9 +1,9 @@
-package mod.yourname.yourmodid.register.config;
+package com.github.pritam252.createnuclearics.register.config;
 
 import com.simibubi.create.foundation.block.BlockStressDefaults;
 import com.simibubi.create.foundation.block.BlockStressValues;
 import com.simibubi.create.foundation.utility.Couple;
-import mod.yourname.yourmodid.BuildConfig;
+import com.github.pritam252.createnuclearics.BuildConfig;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.ForgeConfigSpec;
