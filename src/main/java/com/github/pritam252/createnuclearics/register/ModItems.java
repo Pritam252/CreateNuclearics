@@ -1,6 +1,7 @@
 package com.github.pritam252.createnuclearics.register;
 
 import com.github.pritam252.createnuclearics.CreateNuclearics;
+import com.github.pritam252.createnuclearics.register.items.GraphiteIngot;
 import com.github.pritam252.createnuclearics.register.items.ReactorCasingBI;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.github.pritam252.createnuclearics.BuildConfig;
@@ -23,6 +24,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, BuildConfig.MODID);
 
     public static final RegistryObject<Item> REACTOR_CASING = ITEMS.register("reactor_casing", ReactorCasingBI::get);
+    public static final RegistryObject<Item> GRAPHITE_INGOT = ITEMS.register("graphite_ingot", GraphiteIngot::get);
 
     public static void register(CreateRegistrate registrate) {
         registrate.creativeModeTab(()->itemGroup, BuildConfig.DISPLAY_NAME);

@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "reactor_casing",
+	"parent": "minecraft:block/cube_all",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "reactor_casing_all",
-		"particle": "reactor_casing_all"
+		"0": "createnuclearics:block/reactor_casing_all",
+		"particle": "createnuclearics:block/reactor_casing_all"
 	},
 	"elements": [
 		{

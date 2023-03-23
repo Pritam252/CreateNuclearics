@@ -12,7 +12,6 @@ public class ReactorCasing extends Block {
         props.explosionResistance(10.0f);
         props.strength(0.2f);
         props.sound(SoundType.METAL);
-        props.requiresCorrectToolForDrops();
         return new ReactorCasing(props);
     }
     public ReactorCasing(Properties pProperties) {

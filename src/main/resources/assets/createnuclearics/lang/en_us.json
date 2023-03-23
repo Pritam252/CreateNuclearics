@@ -1,3 +1,5 @@
 {
-  "block.createnuclearics.reactor_casing": "Reactor Casing"
+  "itemGroup.createnuclearics": "Create Nuclearics",
+  "block.createnuclearics.reactor_casing": "Reactor Casing",
+  "item.createnuclearics.graphite_ingot": "Graphite Ingot"
 }
