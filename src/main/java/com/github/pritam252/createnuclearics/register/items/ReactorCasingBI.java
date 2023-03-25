@@ -20,11 +20,11 @@ public class ReactorCasingBI extends BlockItem {
 
     public static Item.Properties getProperties() {
         Item.Properties props = new Item.Properties();
-        props.tab(ModItems.itemGroup);
-        props.fireResistant();
-        props.rarity(Rarity.EPIC);
-        props.stacksTo(64);
-        props.setNoRepair();
+        props.tab(ModItems.itemGroup)
+            .fireResistant()
+            .rarity(Rarity.EPIC)
+            .stacksTo(64)
+            .setNoRepair();
         return props;
     }
 }

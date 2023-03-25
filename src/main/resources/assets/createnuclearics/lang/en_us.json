@@ -1,5 +1,7 @@
 {
   "itemGroup.createnuclearics": "Create Nuclearics",
   "block.createnuclearics.reactor_casing": "Reactor Casing",
-  "item.createnuclearics.graphite_ingot": "Graphite Ingot"
+  "item.createnuclearics.graphite_ingot": "Graphite Ingot",
+  "item.createnuclearics.uranium235_ore": "Uranium-235 Ore",
+  "item.createnuclearics.uranium235_ingot": "Uranium-235 Ingot"
 }

@@ -106,9 +106,8 @@ build.dependsOn reobfShadowJar
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    maven {
-        url "https://maven.tterrag.com/"
-    }
+    maven { url "https://maven.tterrag.com/" }
+    maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
 }
 
 dependencies {
@@ -116,6 +115,7 @@ dependencies {
 
     implementation fg.deobf("com.simibubi.create:Create:mc${create_version}")
     implementation fg.deobf("com.jozufozu.flywheel:Flywheel-Forge:${flywheel_version}")
+    implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.18:3.0.57')
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
